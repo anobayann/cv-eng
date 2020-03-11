@@ -43,6 +43,8 @@ h3
 {
 	background: #90A4AE;
     width: 33%;	
+    position: relative;
+    
 }
 
 /*toute la partie droite du cv*/
@@ -156,8 +158,11 @@ h3
 /*marge entre a propos de moi et loisirs*/
 #loisirs
 {
-    margin-top: 380px;
-    margin-bottom: 30px;   
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    
+    
 }
 
 
@@ -272,12 +277,7 @@ h3
 }
 
 
-/*pour que footer reste en bas*/
-#contenu footer
-{
-    margin-top: 180px;
-}
- 
+
 /*distance de separation entre les references*/
 .patxi
 {
@@ -382,6 +382,7 @@ li:nth-child(1)::after
         background: white;
         display: flex;
         flex-direction: column;
+       
     }
     
     #contenu
@@ -464,6 +465,10 @@ li:nth-child(1)::after
         
         
     }
+    #presentation h3
+    {
+        font-size: 28px;
+    }
     p
     {
         font-size: 14px;
@@ -532,11 +537,10 @@ li:nth-child(1)::after
     
     #loisirs
     {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
+        
         background-color: #90A4AE;
-        margin-top: inherit;
+        bottom: -2100px;
+        
         padding-bottom: 40px;
         margin-bottom: 0px;
         border-top: 2px solid #424242;
@@ -566,7 +570,15 @@ li:nth-child(1)::after
     
    
 }
-
+@media print
+{
+    body{
+        background-color: white;
+        width: 100%;
+        
+    }
+    
+}
 
 
 
