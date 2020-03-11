@@ -539,7 +539,7 @@ li:nth-child(1)::after
     {
         
         background-color: #90A4AE;
-        bottom: -2100px;
+        bottom: -2050px;
         
         padding-bottom: 40px;
         margin-bottom: 0px;
@@ -576,7 +576,13 @@ li:nth-child(1)::after
         background-color: white;
         width: 100%;
         
+        
     }
+    #contenu i
+{
+    
+    margin-top: 4%;
+}
     
 }
 
