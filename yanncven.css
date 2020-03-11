@@ -373,6 +373,7 @@ li:nth-child(1)::after
         position: relative; 
         width: 100%;
         
+        
     }
     
     #presentation
@@ -382,6 +383,7 @@ li:nth-child(1)::after
         background: white;
         display: flex;
         flex-direction: column;
+        position: static;
        
     }
     
@@ -535,17 +537,7 @@ li:nth-child(1)::after
         margin-top: 0px;
     }
     
-    #loisirs
-    {
-        
-        background-color: #90A4AE;
-        bottom: -2100px;
-        
-        
-        padding-bottom: 40px;
-        margin-bottom: 0px;
-        border-top: 2px solid #424242;
-    }
+   
     
     #loisirs i
     {      
@@ -567,6 +559,18 @@ li:nth-child(1)::after
     {
         top: 12px;
     }
+     #loisirs
+    {
+        
+        background-color: #90A4AE;
+        position: absolute;
+        bottom: 0px;
+        
+        
+        padding-bottom: 40px;
+        margin-bottom: 0px;
+        border-top: 2px solid #424242;
+    }
     
     
    
@@ -576,6 +580,7 @@ li:nth-child(1)::after
     body{
         background-color: white;
         width: 100%;
+        
         
         
     }
